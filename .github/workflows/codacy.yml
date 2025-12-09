@@ -3,6 +3,8 @@ on: [push, pull_request]
 jobs:
   check-findings:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: defectdojo findings threshold
         # You may pin to the exact commit or the version.
