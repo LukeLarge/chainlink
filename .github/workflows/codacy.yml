@@ -16,4 +16,5 @@ jobs:
           # the password to login into your defectdojo instance
           defectdojo-password: ${{ secrets.DEFECTDOJO_PASSWORD }}
           # the defectdojo product that the scan result relates to
+          # TODO: Replace 'your-product-name' with the actual product name in DefectDojo
           defectdojo-product: 'your-product-name'
