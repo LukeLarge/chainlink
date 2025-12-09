@@ -17,19 +17,3 @@ jobs:
           defectdojo-password: ${{ secrets.DEFECTDOJO_PASSWORD }}
           # the defectdojo product that the scan result relates to
           defectdojo-product: 'your-product-name'
-          # the file path for a client side certificate if required
-          client-certificate-file-path: # optional
-          # the file path for a client side private key if required
-          client-key-file-path: # optional
-          # total findings threshold
-          total-threshold: # optional, default is false
-          # critical findings threshold
-          critical-threshold: # optional, default is false
-          # high findings threshold
-          high-threshold: # optional, default is false
-          # medium findings threshold
-          medium-threshold: # optional, default is false
-          # low findings threshold
-          low-threshold: # optional, default is false
-          # info findings threshold
-          info-threshold: # optional, default is false
