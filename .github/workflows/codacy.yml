@@ -4,13 +4,13 @@
   uses: portswigger-cloud/defectdojo-findings-thresholds@v1.0.1
   with:
     # the url of your defectdojo instance
-    defectdojo-url: 
+    defectdojo-url: ${{ secrets.DEFECTDOJO_URL }}
     # the username to login into your defectdojo instance
-    defectdojo-username: 
+    defectdojo-username: ${{ secrets.DEFECTDOJO_USERNAME }}
     # the password to login into your defectdojo instance
-    defectdojo-password: 
+    defectdojo-password: ${{ secrets.DEFECTDOJO_PASSWORD }}
     # the defectdojo product that the scan result relates to
-    defectdojo-product: 
+    defectdojo-product: 'your-product-name'
     # the file path for a client side certificate if required
     client-certificate-file-path: # optional
     # the file path for a client side private key if required
